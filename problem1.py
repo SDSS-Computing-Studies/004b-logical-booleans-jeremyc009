@@ -19,3 +19,10 @@ Enter a number: 48
 """
 
 #! python3
+number=int(input("Please enter an integer: "))
+value1=number%6
+value2=number%8
+if value1==0 and value2!=0:
+    print(str(number) + " is frue.")
+else: 
+    print(str(number)+ " is not frue.")

@@ -25,3 +25,5 @@ if value==1 or value==0 and number!=0:
     quit()
 if number==0:
     print("the number is zero. ")
+else:
+    print(str(number)+ " is not a postive integer.")
